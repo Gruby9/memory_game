@@ -5,7 +5,13 @@ function Cards() {
     const [arr, setArr] = useState()
     arr = [1,2,3,4,5,6,7,8,9]
 
-    return (
 
+    
+
+    return (
+        <div className="cards">
+        </div>
     )
 }
+
+export default Cards
