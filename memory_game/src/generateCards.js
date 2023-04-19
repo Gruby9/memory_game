@@ -12,8 +12,8 @@ class GenerateCards extends React.Component {
     }
 
     componentDidMount() {
-        if (this.state.arr.length !== 0) {
-            for (let n = 0; n < 10; n++) {
+        for (let n = 0; n < 10; n++) {
+            if (this.state.arr.length !== 0) {
                 const x = Math.round(Math.random() * this.state.arr.length)
                 const y = this.state.arr[x]
                 this.setState({res: this.state.res + n}) 
